@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Login {
+public class LoginTest {
 	static WebDriver driver;
     static Wait<WebDriver> wait;
 
