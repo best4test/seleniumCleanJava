@@ -1,4 +1,5 @@
-<testsuite errors="1" failures="0" hostname="Seba-PC" name="com.qaconsole.demo.LoginTest" skipped="0" tests="2" time="8.126" timestamp="2017-04-25T13:50:00">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Seba-PC" name="com.qaconsole.demo.LoginTest" skipped="0" tests="2" time="9.176" timestamp="2017-04-26T17:35:24">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="libs" />
@@ -25,6 +26,7 @@
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="sun.jnu.encoding" value="Cp1250" />
     <property name="file.encoding.pkg" value="sun.io" />
+    <property name="projectName" value="Selenium Java Login" />
     <property name="file.separator" value="\" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="java.class.version" value="52.0" />
@@ -52,7 +54,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.qaconsole.demo.LoginTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\seba\workspace\SeleniumWebDriverClean\junit-results\TEST-com.qaconsole.demo.LoginTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\seba\workspace\SeleniumWebDriverClean\junit-results\TEST-com.qaconsole.demo.LoginTest.xml crashfile=C:\Users\seba\workspace\SeleniumWebDriverClean\junitvmwatcher4674934788671944724.properties propsfile=C:\Users\seba\workspace\SeleniumWebDriverClean\junit4551596132532180879.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.qaconsole.demo.LoginTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\seba\workspace\SeleniumWebDriverClean\junit-results\TEST-com.qaconsole.demo.LoginTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\seba\workspace\SeleniumWebDriverClean\junit-results\TEST-com.qaconsole.demo.LoginTest.xml crashfile=C:\Users\seba\workspace\SeleniumWebDriverClean\junitvmwatcher3051137615281530312.properties propsfile=C:\Users\seba\workspace\SeleniumWebDriverClean\junit4694192439607595311.properties" />
     <property name="java.class.path" value="C:\Users\seba\workspace\SeleniumWebDriverClean\build;C:\Users\seba\workspace\SeleniumWebDriverClean\libs\hamcrest-core-1.3.jar;C:\Users\seba\workspace\SeleniumWebDriverClean\libs\junit-4.12.jar;C:\Users\seba\workspace\SeleniumWebDriverClean\libs\selenium-server-standalone-3.0.1.jar;C:\tools\apache-ant-1.9.6\lib\ant-launcher.jar;C:\tools\apache-ant-1.9.6\lib\ant.jar;C:\tools\apache-ant-1.9.6\lib\ant-junit.jar;C:\tools\apache-ant-1.9.6\lib\ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -69,6 +71,7 @@
     <property name="user.dir" value="C:\Users\seba\workspace\SeleniumWebDriverClean" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="environment" value="Stage" />
     <property name="basedir" value="C:\Users\seba\workspace\SeleniumWebDriverClean" />
     <property name="ant.java.version" value="1.8" />
     <property name="ant.core.lib" value="C:\tools\apache-ant-1.9.6\lib\ant.jar" />
@@ -78,18 +81,18 @@
     <property name="src.dir" value="src" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="com.qaconsole.demo.LoginTest" name="test_ASDF1234" time="3.744" />
-  <testcase classname="com.qaconsole.demo.LoginTest" name="ztest_ASDF0015" time="0.046">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;email&quot;}&#xa;  (Session info: chrome=57.0.2987.133)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 25 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;&#xa;System info: host: &apos;Seba-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\seba\AppData\Local\Temp\scoped_dir5624_20530}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 2fb939f58136e17655a23d5851e235c2&#xa;*** Element info: {Using=name, value=email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;email&quot;}
+  <testcase classname="com.qaconsole.demo.LoginTest" name="test_ASDF1234" time="3.316" />
+  <testcase classname="com.qaconsole.demo.LoginTest" name="ztest_ASDF0015" time="0.047">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;email&quot;}&#xa;  (Session info: chrome=57.0.2987.133)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 20 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;&#xa;System info: host: &apos;Seba-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\seba\AppData\Local\Temp\scoped_dir9380_977}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: ba6db9bd453098cdb0452a10eb02fd61&#xa;*** Element info: {Using=name, value=email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;email&quot;}
   (Session info: chrome=57.0.2987.133)
   (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
+Command duration or timeout: 20 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;
 System info: host: &apos;Seba-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\seba\AppData\Local\Temp\scoped_dir5624_20530}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 2fb939f58136e17655a23d5851e235c2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\seba\AppData\Local\Temp\scoped_dir9380_977}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ba6db9bd453098cdb0452a10eb02fd61
 *** Element info: {Using=name, value=email}
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
@@ -105,11 +108,11 @@ Session ID: 2fb939f58136e17655a23d5851e235c2
   <system-out><![CDATA[Waiting ...
 Waiting ...
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 5283
+  <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 37692
 Only local connections are allowed.
-Apr 25, 2017 2:50:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 26, 2017 6:35:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-Apr 25, 2017 2:50:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 26, 2017 6:35:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

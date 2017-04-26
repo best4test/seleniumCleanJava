@@ -55,7 +55,7 @@
 	
 	<target name="send" description="Send file" >		 
 		<loadfile property="fileContent" srcFile="junit-results/TEST-com.qaconsole.demo.LoginTest.xml"/>
-	   	<post to="http://localhost:3001/testrunsJunit" >
+	   	<post to="http://demo.qaconsole.com/testrunsJunit" >
 	   		<prop name="result" value="${fileContent}" />
 	   		<prop name="projectName" value="${projectName}" />
 	   		<prop name="environment" value="${environment}" /> 		
