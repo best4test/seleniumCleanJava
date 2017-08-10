@@ -5,7 +5,8 @@
   <property name="build.dir" value="build"/>
   <property name="junit.dir" value="junit-results"/>
   <property name="lib.dir"   value="libs"/>
-  <property name="projectName" value="Selenium Java Login"/>
+  <property name="projectName" value="QAconsole"/>
+  <property name="suiteName" value="Selenium Java Login"/>
   <property name="environment" value="Stage"/>
 
   <property name="junit.jar" location="libs/junit-4.12.jar"/>
@@ -55,9 +56,11 @@
 	
 	<target name="send" description="Send file" >		 
 		<loadfile property="fileContent" srcFile="junit-results/TEST-com.qaconsole.demo.LoginTest.xml"/>
-	   	<post to="http://demo.qaconsole.com/testrunsJunit" >
+	   	<post to="http://demo.qaconsole.com/v2/testrunsJunit" >
+	   	<!--<post to="http://localhost:3001/v2/testrunsJunit" >-->
 	   		<prop name="result" value="${fileContent}" />
 	   		<prop name="projectName" value="${projectName}" />
+	   		<prop name="suiteName" value="${suiteName}" />
 	   		<prop name="environment" value="${environment}" /> 		
 	   	</post>
 	</target>
